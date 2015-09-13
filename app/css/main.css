@@ -173,18 +173,39 @@ body .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+
 }
 
 body .container .first {
+    margin-right: 10px;
     width: 50%;
 }
+
 body .container .second {
+    margin-right: 10px;
     width: 17%;
 }
 body .container .third {
     width: 33%;
 }
 
+body .container p {
+    text-align: justify;
+
+    column-count: 3;
+    column-width: 9em;
+    column-gap: 10px;
+    -webkit-columns: 3 9em;
+    -webkit-column-gap: 10px;
+    -moz-column-count: 3;
+    -moz-column-width: 9em;
+    -moz-column-gap: 10px;
+}
+
+body video {
+    width: 100%;
+}
 
 
 
