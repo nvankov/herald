@@ -98,13 +98,6 @@ textarea {
 /* Header section BEGIN
    ========================================================================== */
 
-body {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url("../img/bg-main.gif");
-}
-
 body header {
     margin: 10px 0;
     border-top: 3px double black;
@@ -155,10 +148,6 @@ body header nav ul li a {
     color: #000;
 }
 
-body main {
-    display: flex;
-}
-
 body header .subheader {
     padding: 2px;
     margin-bottom: 1px;
@@ -169,14 +158,39 @@ body header .subheader {
 /* Header section END
    ========================================================================== */
 
+/* Body section START
+   ========================================================================== */
+
+body {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/bg-main.gif");
+}
+
+/* TODO: check why could not use body main .container*/
+body .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body .container .first {
+    width: 50%;
+}
+body .container .second {
+    width: 17%;
+}
+body .container .third {
+    width: 33%;
+}
 
 
 
 
 
-
-
-
+/* Body section END
+   ========================================================================== */
 
 
 
