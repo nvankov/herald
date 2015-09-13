@@ -95,9 +95,79 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Header section BEGIN
+   ========================================================================== */
 
+body {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/bg-main.gif");
+}
 
+body header {
+    margin: 10px 0;
+    border-top: 3px double black;
+    border-bottom: 1px solid black;
+}
 
+body header h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 60px;
+    font-weight: normal;
+    text-align: center;
+}
+
+body header h1 span {
+    display: block;
+    font-size: 16px;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+body header div span {
+    float: left;
+}
+
+body header time {
+    float: right;
+}
+
+body header nav {
+    display: inline;
+    text-align: center;
+}
+
+/*could the menu be done with a grid?*/
+body header nav ul {
+    list-style: none;
+    display: inline;
+}
+
+body header nav ul li {
+    display: inline-block;
+}
+
+body header nav ul li a {
+    margin-right: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+
+body main {
+    display: flex;
+}
+
+body header .subheader {
+    padding: 2px;
+    margin-bottom: 1px;
+    border-top: 3px double black;
+    border-bottom: 1px solid black;
+}
+
+/* Header section END
+   ========================================================================== */
 
 
 
