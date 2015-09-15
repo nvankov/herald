@@ -213,6 +213,27 @@ body video {
 /* Body section END
    ========================================================================== */
 
+/* Footer section START
+   ========================================================================== */
+
+footer  div:first-child {
+    display: flex;
+    background-color: #d1d1d1;
+    border: solid 1px #888;
+}
+
+footer div section {
+    padding: 0 20px;
+}
+
+footer div section p {
+    text-align: justify;
+}
+
+
+/* Footer section END
+   ========================================================================== */
+
 
 
 
